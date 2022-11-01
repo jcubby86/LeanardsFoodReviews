@@ -5,7 +5,7 @@ const Layout = () => {
         <>
             <header>
                 <nav className="navbar navbar-dark bg-dark">
-                    <Link className="navbar-brand text-light px-3" to="/"><i className="fa fa-home px-3"></i>Leonard's Food Review</Link>
+                    <Link className="navbar-brand text-light px-3" to="."><i className="fa fa-home px-3"></i>Leonard's Food Review</Link>
                 </nav>
             </header>
 
@@ -18,7 +18,7 @@ const Layout = () => {
 
             <footer className="footer bg-secondary fixed-bottom py-2">
                 <div className="container">
-                    <span className="text-light">Jacob Bastian &copy;2022 - <a href="https://github.com/jcubby86/CreativeProject2" className="text-light">Github Repository</a></span>
+                    <span className="text-light">Jacob Bastian &copy;2022 - <a href="https://github.com/jcubby86/LeonardsFoodReviews" className="text-light" target="_blank" rel="noreferrer">Github Repository</a></span>
                 </div>
             </footer>
         </>

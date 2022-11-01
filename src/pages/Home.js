@@ -16,10 +16,10 @@ const Home = () => {
             <h3 className="p-2">See my recent reviews here!</h3>
             <ul className="list-group">
                 <li className="list-group-item">
-                    <Link to="/pizza">Eugenio's Four Cheese frozen pizza</Link>
+                    <Link to="pizza">Eugenio's Four Cheese frozen pizza</Link>
                 </li>
                 <li className="list-group-item">
-                    <Link to="/chips">Let's Potato chips</Link>
+                    <Link to="chips">Let's Potato chips</Link>
                 </li>
             </ul>
         </>

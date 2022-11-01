@@ -7,7 +7,7 @@ import Pizza from "./pages/Pizza";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/CreativeProject3">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
