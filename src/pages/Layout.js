@@ -1,11 +1,11 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 
 const Layout = () => {
     return (
         <>
             <header>
                 <nav className="navbar navbar-dark bg-dark">
-                    <span className="navbar-brand text-light px-3">Leonard's Food Review</span>
+                    <Link className="navbar-brand text-light px-3" to="/"><i className="fa fa-home px-3"></i>Leonard's Food Review</Link>
                 </nav>
             </header>
 
